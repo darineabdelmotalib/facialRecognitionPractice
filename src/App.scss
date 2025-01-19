@@ -1,0 +1,23 @@
+.webcam-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 10rem;
+    margin-top: 2rem; /* Adjust based on preference */
+  }
+  
+  .webcamRef {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: relative;
+    z-index: 1; /* Webcam stays behind */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .canvasRef {
+    position: absolute;
+    z-index: 2; 
+  }
+  

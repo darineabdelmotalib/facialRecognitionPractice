@@ -70,9 +70,9 @@ function App() {
         }
 
         if (tiltAngle > 10) {
-          direction = "Right";
-        } else if (tiltAngle < -10) {
           direction = "Left";
+        } else if (tiltAngle < -10) {
+          direction = "Right";
         }
 
         setHeadDirection(direction);
